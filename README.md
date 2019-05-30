@@ -4,7 +4,7 @@ Site d'emploi de référence de partout le Monde, JobsPortal est une plateforme 
 Technologies utilisées:
 – Node.js/Express
 – Sequelize
-– Vuejs 2.5.17
+– Vuejs 2.5.17 (Angular 4)
 – Vue Router 3
 – Axios 0.18.0
-- MySql
+– MySql (MongoDB)
