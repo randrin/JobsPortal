@@ -11,6 +11,8 @@ import { LoginComponent } from './components/login/login.component';
 import { DaysAgoPipe } from './pipes/days-ago.pipe';
 import { ToShortDatePipe } from './pipes/to-short-date.pipe';
 import { ToMoneySymbolPipe } from './pipes/to-money-symbol.pipe';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ToMoneySymbolPipe } from './pipes/to-money-symbol.pipe';
     LoginComponent,
     DaysAgoPipe,
     ToShortDatePipe,
-    ToMoneySymbolPipe
+    ToMoneySymbolPipe,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
