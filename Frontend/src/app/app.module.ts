@@ -13,6 +13,7 @@ import { ToShortDatePipe } from './pipes/to-short-date.pipe';
 import { ToMoneySymbolPipe } from './pipes/to-money-symbol.pipe';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SubscribeComponent } from './components/subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './components/contact/contact.component';
     ToShortDatePipe,
     ToMoneySymbolPipe,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
