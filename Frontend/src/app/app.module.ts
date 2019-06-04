@@ -14,6 +14,9 @@ import { ToMoneySymbolPipe } from './pipes/to-money-symbol.pipe';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { JobComponent } from './components/job/job.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
     ToMoneySymbolPipe,
     AboutComponent,
     ContactComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    TestimonialComponent,
+    BlogComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,
