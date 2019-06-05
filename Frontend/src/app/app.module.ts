@@ -17,6 +17,7 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { JobComponent } from './components/job/job.component';
+import { PageNotFoundComponent } from './components/errors/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { JobComponent } from './components/job/job.component';
     SubscribeComponent,
     TestimonialComponent,
     BlogComponent,
-    JobComponent
+    JobComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
