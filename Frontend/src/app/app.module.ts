@@ -16,8 +16,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { BlogComponent } from './components/blog/blog.component';
-import { JobComponent } from './components/job/job.component';
 import { PageNotFoundComponent } from './components/errors/page-not-found/page-not-found.component';
+import { PostjobComponent } from './components/postjob/postjob.component';
+import { WantjobComponent } from './components/wantjob/wantjob.component';
 
 @NgModule({
   declarations: [
@@ -35,8 +36,9 @@ import { PageNotFoundComponent } from './components/errors/page-not-found/page-n
     SubscribeComponent,
     TestimonialComponent,
     BlogComponent,
-    JobComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PostjobComponent,
+    WantjobComponent
   ],
   imports: [
     BrowserModule,
