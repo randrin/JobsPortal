@@ -19,6 +19,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { PageNotFoundComponent } from './components/errors/page-not-found/page-not-found.component';
 import { PostjobComponent } from './components/postjob/postjob.component';
 import { WantjobComponent } from './components/wantjob/wantjob.component';
+import { BodyComponent } from './components/body/body.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { WantjobComponent } from './components/wantjob/wantjob.component';
     BlogComponent,
     PageNotFoundComponent,
     PostjobComponent,
-    WantjobComponent
+    WantjobComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
