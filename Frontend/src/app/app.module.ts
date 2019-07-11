@@ -20,6 +20,9 @@ import { PageNotFoundComponent } from './components/errors/page-not-found/page-n
 import { PostjobComponent } from './components/postjob/postjob.component';
 import { WantjobComponent } from './components/wantjob/wantjob.component';
 import { BodyComponent } from './components/body/body.component';
+import { StatistiquesComponent } from './components/statistiques/statistiques.component';
+import { BlogSectionComponent } from './components/blog/blog-section/blog-section.component';
+import { JobsComponent } from './components/jobs/jobs.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { BodyComponent } from './components/body/body.component';
     PageNotFoundComponent,
     PostjobComponent,
     WantjobComponent,
-    BodyComponent
+    BodyComponent,
+    StatistiquesComponent,
+    BlogSectionComponent,
+    JobsComponent
   ],
   imports: [
     BrowserModule,
