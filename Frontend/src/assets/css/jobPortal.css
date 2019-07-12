@@ -1,0 +1,22 @@
+#toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    color: white;
+    font-size: 2em;
+    background-color: #5dd28e !important;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 12px -5px rgba(255,152,0,.46);
+}
+.top-button {
+    padding: 13px 10px;
+}
+#toTop:hover,
+.material-button:hover {
+    border: 2px solid white;
+}

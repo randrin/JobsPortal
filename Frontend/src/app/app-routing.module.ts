@@ -22,10 +22,10 @@ const routes: Routes = [
     path: 'contact', component: ContactComponent
   },
   {
-    path: 'Postjob', component: PostjobComponent
+    path: 'post-job', component: PostjobComponent
   },
   {
-    path: 'Wantjob', component: WantjobComponent
+    path: 'want-job', component: WantjobComponent
   },
   {
     path: '', redirectTo: '/home', pathMatch: 'full'
