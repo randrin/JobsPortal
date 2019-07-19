@@ -23,6 +23,7 @@ import { BodyComponent } from './components/body/body.component';
 import { StatistiquesComponent } from './components/statistiques/statistiques.component';
 import { BlogSectionComponent } from './components/blog/blog-section/blog-section.component';
 import { JobsComponent } from './components/jobs/jobs.component';
+import { HomeSectionComponent } from './components/home/home-section/home-section.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { JobsComponent } from './components/jobs/jobs.component';
     BodyComponent,
     StatistiquesComponent,
     BlogSectionComponent,
-    JobsComponent
+    JobsComponent,
+    HomeSectionComponent
   ],
   imports: [
     BrowserModule,
