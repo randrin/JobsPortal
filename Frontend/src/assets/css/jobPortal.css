@@ -16,6 +16,10 @@
 .top-button {
     padding: 13px 10px;
 }
+#toTop:hover .fa-chevron-up:before {
+    top: -5px;
+    position: relative;
+}
 #toTop:hover,
 .material-button:hover {
     border: 2px solid white;
